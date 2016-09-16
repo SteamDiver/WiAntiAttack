@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="22"
+    density="xhdpi"
+    format="7"
+    timestamp="8825895701822"
+    token="5495908467183992512" >
+
+    <task
+        name="javac"
+        duration="95" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="29" />
+    <task
+        name="verifier"
+        duration="4" />
+
+    <artifact
+        location="/home/home/dev/android/WiAntiAttack/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
+
+    <build timestamp="8825895701822" >
+        <artifact
+            location="/home/home/dev/android/WiAntiAttack/app/build/outputs/apk/app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>
