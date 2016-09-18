@@ -48,12 +48,12 @@
         "source": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
-        "source": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_clear_material.xml"
-    },
-    {
         "merged": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
         "source": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/res/drawable/abc_ic_clear_material.xml"
     },
     {
         "merged": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
