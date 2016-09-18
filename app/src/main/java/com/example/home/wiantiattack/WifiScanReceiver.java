@@ -1,28 +1,19 @@
-package com.example.home.wiantiattack;
-
-import android.annotation.TargetApi;
-import android.app.Activity;
-import android.app.Application;
-import android.content.BroadcastReceiver;
-import android.content.Context;
-import android.content.Intent;
-
-import android.net.NetworkInfo;
-import android.net.wifi.ScanResult;
-import android.net.wifi.WifiInfo;
-import android.net.wifi.WifiManager;
-import android.os.Build;
-import android.util.Log;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
-
-import java.util.Arrays;
-import java.util.List;
-import java.util.Objects;
-
 /**
  * Created by home on 9/17/16.
  */
+package com.example.home.wiantiattack;
+
+
+import android.content.BroadcastReceiver;
+import android.content.Context;
+import android.content.Intent;
+import android.net.wifi.ScanResult;
+import android.net.wifi.WifiManager;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+import java.util.List;
+
+
 public class WifiScanReceiver extends BroadcastReceiver {
 
     ListView lv;
@@ -40,7 +31,6 @@ public class WifiScanReceiver extends BroadcastReceiver {
 
     }
 
-    @TargetApi(Build.VERSION_CODES.KITKAT)
 
     public void onReceive(Context c, Intent intent) {
         List<ScanResult> wifiScanList = wifi.getScanResults();
@@ -70,10 +60,11 @@ public class WifiScanReceiver extends BroadcastReceiver {
 
     public String ConnectedWifiSSID() {
         String currentssid = "none";
+        //TODO Проверить это. Должно проверять состояние подключения к сети
         //WifiInfo wifiInfo = this.wifi.getConnectionInfo();
         //if (WifiInfo.getDetailedStateOf(wifiInfo.getSupplicantState()) == NetworkInfo.DetailedState.CONNECTED) {
         currentssid = wifi.getConnectionInfo().getSSID();
-        currentssid = currentssid.replaceAll("\"", "");
+        currentssid = currentssid.replaceAll("(?:\"([^>]*)\")(?!>)", "");
        // }
         return currentssid;
 
