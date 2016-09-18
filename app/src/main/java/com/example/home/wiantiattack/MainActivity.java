@@ -12,37 +12,52 @@ import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 
+import android.support.v4.content.pm.ActivityInfoCompat;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
 
+import android.view.View;
 import android.widget.ArrayAdapter;
 
+import android.widget.Button;
 import android.widget.ListView;
 
 
 import java.util.List;
 
-public class MainActivity extends Activity {
+public class MainActivity extends Activity{
     ListView lv;
     WifiManager wifi;
-    String wifis[];
     WifiScanReceiver wifiReciever;
+    public static Context context;
+
+    Button btnCheck;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        context = this.getApplicationContext();
+
+        btnCheck = (Button) findViewById(R.id.check);
+
         lv = (ListView) findViewById(R.id.listView);
         wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
         wifiReciever = new WifiScanReceiver(lv, wifi);
         wifi.startScan();
 
 
+        View.OnClickListener oclbtnCheck = new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                wifi.startScan();
+            }
+        };
+        btnCheck.setOnClickListener(oclbtnCheck);
 
     }
-
     protected void onPause() {
         unregisterReceiver(wifiReciever);
         super.onPause();

@@ -4,7 +4,7 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="74105123130145"
+    timestamp="80289125356478"
     token="-7957952924122300893" >
 
     <task
@@ -20,16 +20,24 @@
         name="verifier"
         duration="0" />
 
-    <build timestamp="71932785091051" >
+    <artifact
+        location="/home/ghost/dev/android/WiAntiAttack/app/build/intermediates/res/resources-debug.ap_"
+        type="RESOURCES" />
+
+    <build timestamp="78434737016276" >
         <artifact
             location="/home/ghost/dev/android/WiAntiAttack/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
-    <build timestamp="74033003444289" >
+    <build timestamp="79747667199583" >
         <artifact
             location="/home/ghost/dev/android/WiAntiAttack/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
             type="DEX" />
     </build>
-    <build timestamp="74105123130145" />
+    <build timestamp="80289125356478" >
+        <artifact
+            location="/home/ghost/dev/android/WiAntiAttack/app/build/intermediates/res/resources-debug.ap_"
+            type="RESOURCES" />
+    </build>
 
 </instant-run>

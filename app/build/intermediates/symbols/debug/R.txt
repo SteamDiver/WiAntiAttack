@@ -508,8 +508,8 @@ int id beginning 0x7f0b001a
 int id bottom 0x7f0b0022
 int id buttonPanel 0x7f0b002e
 int id cancel_action 0x7f0b0057
+int id check 0x7f0b0055
 int id checkbox 0x7f0b003c
-int id checkessids 0x7f0b0055
 int id chronometer 0x7f0b005d
 int id collapseActionView 0x7f0b001e
 int id contentPanel 0x7f0b0034

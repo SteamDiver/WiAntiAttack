@@ -24,8 +24,8 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="check essids"
-        android:id="@+id/checkessids"
+        android:text="Обновить"
+        android:id="@+id/check"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />

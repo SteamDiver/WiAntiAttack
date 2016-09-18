@@ -1801,8 +1801,8 @@ containing a value of this type.
         public static final int bottom=0x7f0b0022;
         public static final int buttonPanel=0x7f0b002e;
         public static final int cancel_action=0x7f0b0057;
+        public static final int check=0x7f0b0055;
         public static final int checkbox=0x7f0b003c;
-        public static final int checkessids=0x7f0b0055;
         public static final int chronometer=0x7f0b005d;
         public static final int collapseActionView=0x7f0b001e;
         public static final int contentPanel=0x7f0b0034;

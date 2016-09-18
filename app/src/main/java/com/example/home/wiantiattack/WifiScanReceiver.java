@@ -30,7 +30,7 @@ public class WifiScanReceiver extends BroadcastReceiver {
     WifiManager wifi;
     String wifis[];
 
-    Detectors detectors;
+    public static Detectors detectors;
 
 
     public WifiScanReceiver(ListView listView, WifiManager wifiManager) {
@@ -74,7 +74,7 @@ public class WifiScanReceiver extends BroadcastReceiver {
         //if (WifiInfo.getDetailedStateOf(wifiInfo.getSupplicantState()) == NetworkInfo.DetailedState.CONNECTED) {
         currentssid = wifi.getConnectionInfo().getSSID();
         currentssid = currentssid.replaceAll("\"", "");
-        //}
+       // }
         return currentssid;
 
     }
