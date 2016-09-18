@@ -12,6 +12,7 @@ import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 import android.os.Bundle;
 
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
@@ -35,9 +36,11 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
         lv = (ListView) findViewById(R.id.listView);
         wifi = (WifiManager) getSystemService(Context.WIFI_SERVICE);
-
         wifiReciever = new WifiScanReceiver(lv, wifi);
         wifi.startScan();
+
+
+
     }
 
     protected void onPause() {

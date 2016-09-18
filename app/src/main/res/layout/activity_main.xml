@@ -21,14 +21,13 @@
         android:choiceMode="none"
         android:layout_marginTop="50dp" />
 
-    <CheckBox
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New CheckBox"
-        android:id="@+id/EvilBox"
+        android:text="check essids"
+        android:id="@+id/checkessids"
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:checked="false" />
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

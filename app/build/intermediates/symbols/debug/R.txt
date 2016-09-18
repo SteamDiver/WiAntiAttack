@@ -485,7 +485,6 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x7f020050
 int drawable abc_textfield_search_material 0x7f020051
 int drawable abc_vector_test 0x7f020052
 int drawable notification_template_icon_bg 0x7f020053
-int id EvilBox 0x7f0b0055
 int id action0 0x7f0b0056
 int id action_bar 0x7f0b0045
 int id action_bar_activity_content 0x7f0b0000
@@ -510,6 +509,7 @@ int id bottom 0x7f0b0022
 int id buttonPanel 0x7f0b002e
 int id cancel_action 0x7f0b0057
 int id checkbox 0x7f0b003c
+int id checkessids 0x7f0b0055
 int id chronometer 0x7f0b005d
 int id collapseActionView 0x7f0b001e
 int id contentPanel 0x7f0b0034

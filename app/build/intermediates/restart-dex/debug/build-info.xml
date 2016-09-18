@@ -4,41 +4,32 @@
     api-level="22"
     density="xhdpi"
     format="7"
-    timestamp="2686968966694"
-    token="5495908467183992512" >
+    timestamp="74105123130145"
+    token="-7957952924122300893" >
 
     <task
         name="javac"
-        duration="226" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="7" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
-    <artifact
-        location="/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/resources-debug.ap_"
-        type="RESOURCES" />
-    <artifact
-        location="/home/home/dev/android/WiAntiAttack/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-        type="DEX" />
-
-    <build timestamp="2686968966694" >
+    <build timestamp="71932785091051" >
         <artifact
-            location="/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-        <artifact
-            location="/home/home/dev/android/WiAntiAttack/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
-            type="DEX" />
-    </build>
-    <build timestamp="3285412216417" >
-        <artifact
-            location="/home/home/dev/android/WiAntiAttack/app/build/outputs/apk/app-debug.apk"
+            location="/home/ghost/dev/android/WiAntiAttack/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
     </build>
+    <build timestamp="74033003444289" >
+        <artifact
+            location="/home/ghost/dev/android/WiAntiAttack/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_4/classes.dex"
+            type="DEX" />
+    </build>
+    <build timestamp="74105123130145" />
 
 </instant-run>

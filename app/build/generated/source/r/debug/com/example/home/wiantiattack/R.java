@@ -1778,7 +1778,6 @@ containing a value of this type.
         public static final int notification_template_icon_bg=0x7f020053;
     }
     public static final class id {
-        public static final int EvilBox=0x7f0b0055;
         public static final int action0=0x7f0b0056;
         public static final int action_bar=0x7f0b0045;
         public static final int action_bar_activity_content=0x7f0b0000;
@@ -1803,6 +1802,7 @@ containing a value of this type.
         public static final int buttonPanel=0x7f0b002e;
         public static final int cancel_action=0x7f0b0057;
         public static final int checkbox=0x7f0b003c;
+        public static final int checkessids=0x7f0b0055;
         public static final int chronometer=0x7f0b005d;
         public static final int collapseActionView=0x7f0b001e;
         public static final int contentPanel=0x7f0b0034;
