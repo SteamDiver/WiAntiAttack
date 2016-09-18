@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/home/home/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
+        "source": "/home/home/dev/android/WiAntiAttack/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/ghost/dev/android/WiAntiAttack/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/ic_launcher.png",
         "source": "/home/ghost/dev/android/WiAntiAttack/app/src/main/res/mipmap-mdpi/ic_launcher.png"
     }
