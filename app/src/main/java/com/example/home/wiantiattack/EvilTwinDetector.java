@@ -39,6 +39,7 @@ public class EvilTwinDetector {
                 Toast toast = Toast.makeText(MainActivity.context, "Evil twin detected!", Toast.LENGTH_SHORT);
                 toast.setGravity(Gravity.BOTTOM, 0, 100);
                 toast.show();
+                new Notifier(MainActivity.context, "Attention","Найдено две или несколько сетей с одинаковыми именами. Возможна EvilTwin-атака",100);
 
                 
             }
